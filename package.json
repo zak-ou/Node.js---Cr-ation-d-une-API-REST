@@ -1,0 +1,19 @@
+{
+  "name": "tp-nodejs-api",
+  "version": "1.0.0",
+  "description": "TP - Initiation à Node.js - Création d'une API REST",
+  "main": "server.js",
+  "scripts": {
+    "seed": "node seed.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "rest",
+    "http"
+  ],
+  "author": "",
+  "license": "ISC"
+}

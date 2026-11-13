@@ -1,0 +1,31 @@
+### Obtenir tous les posts
+GET http://localhost:3000/api/posts
+
+### Obtenir un post spécifique
+GET http://localhost:3000/api/posts/1
+
+### Obtenir un post inexistant
+GET http://localhost:3000/api/posts/999
+
+### Créer un nouveau post
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "Mon nouveau post",
+    "body": "Ceci est le contenu de mon nouveau post créé via l'API"
+}
+
+### Mettre à jour un post
+PUT http://localhost:3000/api/posts/1
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "Post modifié",
+    "body": "Le contenu a été mis à jour"
+}
+
+### Supprimer un post
+DELETE http://localhost:3000/api/posts/101
